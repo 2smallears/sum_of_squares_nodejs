@@ -1,4 +1,4 @@
-'use static';
+'use strict';
 
 const test = require('../src/main');
 
@@ -33,4 +33,3 @@ describe('sum of squares', () => {
         expect(console.log).toHaveBeenCalledWith(sumOfSquares);
     });
 });
-
