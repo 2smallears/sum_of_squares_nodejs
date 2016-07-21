@@ -1,4 +1,4 @@
-'use static';
+'use strict';
 
 function printSumOfSquares(inputs) {
     const oddElements = findOddElements(inputs);
